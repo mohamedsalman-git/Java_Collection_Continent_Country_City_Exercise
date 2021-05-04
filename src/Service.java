@@ -97,7 +97,7 @@ public class Service {
     }
 
     public Map<String,List<City>> ContinentCountriesCities(List<Country> countries,
-                                                            Map<String, List<City>> CitiesInCountry){
+                                                            Map<String, List<City>> CitiesInCountry) {
         // Create a map that uses the country code as keys and a list of cities as the value for each country
         Map<String,List<City>> continentCountriesCities = new HashMap<>();
 

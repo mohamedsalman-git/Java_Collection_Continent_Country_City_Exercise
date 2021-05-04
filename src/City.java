@@ -11,9 +11,6 @@ public class City {
           this.countryCode = countryCode.trim();
      }
 
-     public String getCode() {
-          return code;
-     }
      public String getName() {
           return name;
      }
@@ -22,18 +19,5 @@ public class City {
      }
      public String getCountryCode() {
           return countryCode;
-     }
-
-     public void setCode(String code) {
-          this.code = code.trim();
-     }
-     public void setName(String name) {
-          this.name = name.trim();
-     }
-     public void setPopulation(double population) {
-          this.population = population;
-     }
-     public void setCountryCode(String countryCode) {
-          this.countryCode = countryCode.trim();
      }
 }
